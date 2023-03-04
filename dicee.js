@@ -1,7 +1,9 @@
 var state="initial";
-state=prompt("Select to be Player 1 or 2.");
+state=prompt("Select to be Player 1 or 2. Type 1 or 2");
 if(state=="initial"){}
-else{
+else {
+ document.querySelectorAll("p")[0].innerHTML="Player"+state;
+  document.querySelectorAll("p")[1].innerHTML="Saumya";
 var randomVar1=Math.floor(Math.random(3)*5)+1;
 var randomVar2=randomVar1+1;
 var randomDiceImg1="images/dice"+randomVar1+".png";
