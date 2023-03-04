@@ -1,6 +1,6 @@
 var state="initial";
 state=prompt("Select to be Player 1 or 2. Type 1 or 2");
-document.querySelector("h1").innerHTML="Saumya Always Wins";
+document.querySelector("h1").innerHTML="Saumya Always Wins. Refresh to try again";
 if(state=="initial"){
 }
 else {
