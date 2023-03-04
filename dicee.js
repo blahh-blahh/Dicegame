@@ -1,7 +1,7 @@
 var state="initial";
 state=prompt("Select to be Player 1 or 2. Type 1 or 2");
+document.querySelector("h1").innerHTML="Saumya Always Wins";
 if(state=="initial"){
- document.querySelector("h1").innerHTML="Saumya Always Wins";
 }
 else {
  document.querySelectorAll("p")[0].innerHTML="Player"+state;
@@ -12,5 +12,4 @@ var randomDiceImg1="images/dice"+randomVar1+".png";
 document.querySelector(".img1").setAttribute("src",randomDiceImg1);
 var randomDiceImg2="images/dice"+randomVar2+".png";
 document.querySelectorAll("img")[1].setAttribute("src",randomDiceImg2);
-document.querySelector("h1").innerHTML="Saumya Always Wins";
 }
